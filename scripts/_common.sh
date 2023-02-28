@@ -5,7 +5,9 @@
 #=================================================
 
 # dependencies used by the app
-pkg_dependencies="build-essential pkg-config libssl-dev libc6-dev"
+pkg_dependencies="libpq5"
+
+pkg_image="vaultwarden/server"
 
 #=================================================
 # PERSONAL HELPERS
